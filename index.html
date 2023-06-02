@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Beth+Ellen&family=Lancelot&family=Liu+Jian+Mao+Cao&family=Over+the+Rainbow&family=The+Girl+Next+Door&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <img src="img/main02.png" alt="" class="img" />
+      <h1 class="title">Life is a celebration♡</h1>
+    </div>
+
+    <h2 class="title_form">Please fill in the form</h2>
+
+    <form action="" class="form">
+      <tr>
+        <th><label for="" class="label_name">Name</label></th>
+        <td><input type="text" id="key" class="input" /></td>
+      </tr>
+
+      <br />
+
+      <tr>
+        <th><label for="" class="label_address">Address</label></th>
+        <td><input type="text" id="address" class="input" /></td>
+      </tr>
+
+      <br />
+
+      <tr>
+        <th><label for="birthday" class="label_birthday">Birthday</label></th>
+        <td><input type="date" id="birthday" class="input" /></td>
+      </tr>
+
+      <br />
+
+      <tr>
+        <th>
+          <label for="wine1" class="label_wine1"
+            >Your favourite wine no.1</label
+          >
+        </th>
+        <td>
+          <select id="wine1" class="input">
+            <option value="Sauvignon Blanc">Sauvignon Blanc</option>
+            <option value="Chardonnay">Chardonnay</option>
+            <option value="Pino Grigio">Pino Grigio</option>
+            <option value="Pinot Noir">Pinot Noir</option>
+            <option value="Merlot">Merlot</option>
+            <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
+            <option value="Syrah">Syrah</option>
+            <option value="Zinfandel">Zinfandel</option>
+            <option value="Champagne">Champagne</option>
+            <option value="Rose">Rose</option>
+          </select>
+        </td>
+      </tr>
+
+      <br />
+
+      <tr>
+        <th>
+          <label for="wine2" class="label_wine2"
+            >Your favourite wine no.2</label
+          >
+        </th>
+        <td>
+          <select id="wine2" class="input">
+            <option value="Sauvignon Blanc">Sauvignon Blanc</option>
+            <option value="Chardonnay">Chardonnay</option>
+            <option value="Pino Grigio">Pino Grigio</option>
+            <option value="Pinot Noir">Pinot Noir</option>
+            <option value="Merlot">Merlot</option>
+            <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
+            <option value="Syrah">Syrah</option>
+            <option value="Zinfandel">Zinfandel</option>
+            <option value="Champagne">Champagne</option>
+            <option value="Rose">Rose</option>
+          </select>
+        </td>
+      </tr>
+
+      <div class="btns">
+        <button id="submit" class="btn">submit</button>
+        <button id="clear" class="btn">clear</button>
+      </div>
+    </form>
+
+    <br /><br /><br /><br />
+
+    <div class="search">
+      <input type="text" id="searchKey" class="search_key" />
+      <input type="submit" id="search" value="search" class="search_btn" />
+    </div>
+
+    <div id="result"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
